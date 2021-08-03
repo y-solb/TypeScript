@@ -37,7 +37,7 @@
 
   // null (비어있다!)
   let person: null; // 💩
-  let person2 = string | null;
+  let person2: string | null;
 
   // unknown 💩 (어떤 종류의 데이터가 담길지 알 수 없다)
   let notSure: unknown = 0;
