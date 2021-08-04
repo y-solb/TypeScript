@@ -1,6 +1,7 @@
 {
   /**
-   * Type Aliases : 새로운 타입을 정의할 수 있음
+   * Type Aliases
+   * 새로운 타입을 정의할 수 있음
    */
   type Text = string; // Text라는 새로운 타입은 문자열을 말합니다~
   const name1: string = 'solbi';
@@ -17,7 +18,8 @@
   };
 
   /**
-   * String Literal Types : 타입을 문자열로 지정
+   * String Literal Types
+   * 타입을 문자열로 지정
    */
   type Name = 'name';
   let ellieName: Name;

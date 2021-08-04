@@ -1,6 +1,7 @@
 {
   /**
-   * Union Types: OR 모든 가능한 케이스 중에 발생할 수 있는 딱 하나를 담을 수 있는 타입을 만들고 싶을 때
+   * Union Types
+   * OR 모든 가능한 케이스 중에 발생할 수 있는 딱 하나를 담을 수 있는 타입을 만들고 싶을 때
    */
   type Direction = 'left' | 'right' | 'up' | 'down';
   function move(direction: Direction) {
