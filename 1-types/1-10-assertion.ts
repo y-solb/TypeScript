@@ -8,7 +8,7 @@
     return 'hello';
   }
   const result = jsStrFunc();
-  console.log((result as string).length); // string 타입으로 만들어줌
+  console.log((result as string).length); // string 타입으로 만들어줘서 length를 사용 가능
   console.log((<string>result).length);
 
   const wrong: any = 5;
